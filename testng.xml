@@ -11,6 +11,7 @@
        <class name="tests.Signintest"/>
         <class name="tests.Searchagaintest"/>
          <class name="tests.Categorytest"/>
+         <class name="tests.Contacttest"/>
     </classes>
   </test> 
   </parameter>
