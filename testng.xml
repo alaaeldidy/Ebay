@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false" preserve-order="false">
+<parameter name="browser" value="firefox">
+  <test name="ebay">
+    <classes>
+       <class name="tests.Searchtest"/>
+       <class name="tests.Hovertest"/>
+       <class name="tests.Registertest"/>
+       <class name="tests.Shiptest"/>
+       <class name="tests.Signintest"/>
+        <class name="tests.Searchagaintest"/>
+         <class name="tests.Categorytest"/>
+    </classes>
+  </test> 
+  </parameter>
+</suite> 
+
+
+
+
+
