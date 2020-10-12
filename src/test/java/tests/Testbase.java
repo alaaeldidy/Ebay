@@ -48,7 +48,7 @@ public void useropenurl(@Optional("chrome")String browsername )
 		 caps.setCapability("takesScreenshot", true);
 		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,System.getProperty("user.dir")+"\\Drivers\\phantomjs.exe");
 		String [] arg= {"--web-security=no","--ignore-errors=yes"};
-		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, arg);
+		caps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, arg);
 		driver = new PhantomJSDriver(caps);
 	}
 	else if(browsername.equalsIgnoreCase("headlesschrome"))
