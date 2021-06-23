@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="92310" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:20:29Z">
+  <suite name="Regression Suite" duration-ms="86637" started-at="2021-06-23T19:27:04Z" finished-at="2021-06-23T19:28:31Z">
     <groups>
     </groups>
-    <test name="Regression Test" duration-ms="92310" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:20:29Z">
+    <test name="Regression Test" duration-ms="86637" started-at="2021-06-23T19:27:04Z" finished-at="2021-06-23T19:28:31Z">
       <class name="tests.Searchtest">
-        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="useropenurl" is-config="true" duration-ms="12337" started-at="2021-06-23T17:19:51Z" finished-at="2021-06-23T17:20:03Z">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="useropenurl" is-config="true" duration-ms="11326" started-at="2021-06-23T19:27:54Z" finished-at="2021-06-23T19:28:06Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useropenurl -->
-        <test-method status="PASS" signature="usersearchtest()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="usersearchtest" duration-ms="2360" started-at="2021-06-23T17:20:03Z" finished-at="2021-06-23T17:20:05Z">
+        <test-method status="PASS" signature="usersearchtest()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="usersearchtest" duration-ms="3371" started-at="2021-06-23T19:28:06Z" finished-at="2021-06-23T19:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersearchtest -->
-        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T17:20:05Z" finished-at="2021-06-23T17:20:05Z">
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userturnoffurl" is-config="true" duration-ms="685" started-at="2021-06-23T19:28:09Z" finished-at="2021-06-23T19:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T19:28:09Z" finished-at="2021-06-23T19:28:09Z">
           <params>
             <param index="0">
               <value>
@@ -33,13 +37,9 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userscreenshot -->
-        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userturnoffurl" is-config="true" duration-ms="702" started-at="2021-06-23T17:20:05Z" finished-at="2021-06-23T17:20:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userturnoffurl -->
       </class> <!-- tests.Searchtest -->
       <class name="tests.Shiptest">
-        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="useropenurl" is-config="true" duration-ms="11357" started-at="2021-06-23T17:20:06Z" finished-at="2021-06-23T17:20:17Z">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="useropenurl" is-config="true" duration-ms="11469" started-at="2021-06-23T19:28:10Z" finished-at="2021-06-23T19:28:21Z">
           <params>
             <param index="0">
               <value>
@@ -50,11 +50,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useropenurl -->
-        <test-method status="PASS" signature="usershiptest()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="usershiptest" duration-ms="11078" started-at="2021-06-23T17:20:17Z" finished-at="2021-06-23T17:20:29Z">
+        <test-method status="PASS" signature="usershiptest()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="usershiptest" duration-ms="8792" started-at="2021-06-23T19:28:21Z" finished-at="2021-06-23T19:28:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usershiptest -->
-        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userscreenshot" is-config="true" duration-ms="1" started-at="2021-06-23T17:20:29Z" finished-at="2021-06-23T17:20:29Z">
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T19:28:30Z" finished-at="2021-06-23T19:28:30Z">
           <params>
             <param index="0">
               <value>
@@ -65,13 +65,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userscreenshot -->
-        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userturnoffurl" is-config="true" duration-ms="688" started-at="2021-06-23T17:20:29Z" finished-at="2021-06-23T17:20:29Z">
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userturnoffurl" is-config="true" duration-ms="725" started-at="2021-06-23T19:28:30Z" finished-at="2021-06-23T19:28:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userturnoffurl -->
       </class> <!-- tests.Shiptest -->
       <class name="tests.Categorytest">
-        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Categorytest@6df97b55]" name="useropenurl" is-config="true" duration-ms="12349" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:19:09Z">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Categorytest@6df97b55]" name="useropenurl" is-config="true" duration-ms="12362" started-at="2021-06-23T19:27:04Z" finished-at="2021-06-23T19:27:16Z">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useropenurl -->
-        <test-method status="PASS" signature="usercategorytestit()[pri:0, instance:tests.Categorytest@6df97b55]" name="usercategorytestit" duration-ms="9306" started-at="2021-06-23T17:19:09Z" finished-at="2021-06-23T17:19:19Z">
+        <test-method status="PASS" signature="usercategorytestit()[pri:0, instance:tests.Categorytest@6df97b55]" name="usercategorytestit" duration-ms="11634" started-at="2021-06-23T19:27:16Z" finished-at="2021-06-23T19:27:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usercategorytestit -->
-        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Categorytest@6df97b55]" name="userscreenshot" is-config="true" duration-ms="2" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:19Z">
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Categorytest@6df97b55]" name="userscreenshot" is-config="true" duration-ms="3" started-at="2021-06-23T19:27:28Z" finished-at="2021-06-23T19:27:28Z">
           <params>
             <param index="0">
               <value>
@@ -97,13 +97,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userscreenshot -->
-        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Categorytest@6df97b55]" name="userturnoffurl" is-config="true" duration-ms="743" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:19Z">
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Categorytest@6df97b55]" name="userturnoffurl" is-config="true" duration-ms="791" started-at="2021-06-23T19:27:28Z" finished-at="2021-06-23T19:27:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userturnoffurl -->
       </class> <!-- tests.Categorytest -->
       <class name="tests.Searchagaintest">
-        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="useropenurl" is-config="true" duration-ms="11706" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:31Z">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="useropenurl" is-config="true" duration-ms="11166" started-at="2021-06-23T19:27:29Z" finished-at="2021-06-23T19:27:40Z">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useropenurl -->
-        <test-method status="PASS" signature="usersearchagaintest()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="usersearchagaintest" duration-ms="18933" started-at="2021-06-23T17:19:31Z" finished-at="2021-06-23T17:19:50Z">
+        <test-method status="PASS" signature="usersearchagaintest()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="usersearchagaintest" duration-ms="13503" started-at="2021-06-23T19:27:40Z" finished-at="2021-06-23T19:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersearchagaintest -->
-        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userscreenshot" is-config="true" duration-ms="1" started-at="2021-06-23T17:19:50Z" finished-at="2021-06-23T17:19:50Z">
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T19:27:53Z" finished-at="2021-06-23T19:27:53Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userscreenshot -->
-        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userturnoffurl" is-config="true" duration-ms="716" started-at="2021-06-23T17:19:50Z" finished-at="2021-06-23T17:19:51Z">
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userturnoffurl" is-config="true" duration-ms="766" started-at="2021-06-23T19:27:53Z" finished-at="2021-06-23T19:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userturnoffurl -->
