@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="92310" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:20:29Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="92310" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:20:29Z">
+      <class name="tests.Searchtest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="useropenurl" is-config="true" duration-ms="12337" started-at="2021-06-23T17:19:51Z" finished-at="2021-06-23T17:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usersearchtest()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="usersearchtest" duration-ms="2360" started-at="2021-06-23T17:20:03Z" finished-at="2021-06-23T17:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchtest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T17:20:05Z" finished-at="2021-06-23T17:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchtest status=SUCCESS method=Searchtest.usersearchtest()[pri:0, instance:tests.Searchtest@67b6d4ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchtest@67b6d4ae]" name="userturnoffurl" is-config="true" duration-ms="702" started-at="2021-06-23T17:20:05Z" finished-at="2021-06-23T17:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Searchtest -->
+      <class name="tests.Shiptest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="useropenurl" is-config="true" duration-ms="11357" started-at="2021-06-23T17:20:06Z" finished-at="2021-06-23T17:20:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usershiptest()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="usershiptest" duration-ms="11078" started-at="2021-06-23T17:20:17Z" finished-at="2021-06-23T17:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usershiptest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userscreenshot" is-config="true" duration-ms="1" started-at="2021-06-23T17:20:29Z" finished-at="2021-06-23T17:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usershiptest status=SUCCESS method=Shiptest.usershiptest()[pri:0, instance:tests.Shiptest@34b7bfc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Shiptest@34b7bfc0]" name="userturnoffurl" is-config="true" duration-ms="688" started-at="2021-06-23T17:20:29Z" finished-at="2021-06-23T17:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Shiptest -->
+      <class name="tests.Categorytest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Categorytest@6df97b55]" name="useropenurl" is-config="true" duration-ms="12349" started-at="2021-06-23T17:18:57Z" finished-at="2021-06-23T17:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usercategorytestit()[pri:0, instance:tests.Categorytest@6df97b55]" name="usercategorytestit" duration-ms="9306" started-at="2021-06-23T17:19:09Z" finished-at="2021-06-23T17:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercategorytestit -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Categorytest@6df97b55]" name="userscreenshot" is-config="true" duration-ms="2" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercategorytestit status=SUCCESS method=Categorytest.usercategorytestit()[pri:0, instance:tests.Categorytest@6df97b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Categorytest@6df97b55]" name="userturnoffurl" is-config="true" duration-ms="743" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Categorytest -->
+      <class name="tests.Searchagaintest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="useropenurl" is-config="true" duration-ms="11706" started-at="2021-06-23T17:19:19Z" finished-at="2021-06-23T17:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usersearchagaintest()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="usersearchagaintest" duration-ms="18933" started-at="2021-06-23T17:19:31Z" finished-at="2021-06-23T17:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchagaintest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userscreenshot" is-config="true" duration-ms="1" started-at="2021-06-23T17:19:50Z" finished-at="2021-06-23T17:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchagaintest status=SUCCESS method=Searchagaintest.usersearchagaintest()[pri:0, instance:tests.Searchagaintest@366e2eef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchagaintest@366e2eef]" name="userturnoffurl" is-config="true" duration-ms="716" started-at="2021-06-23T17:19:50Z" finished-at="2021-06-23T17:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Searchagaintest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="104846" started-at="2021-06-23T17:14:49Z" finished-at="2021-06-23T17:16:34Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="104846" started-at="2021-06-23T17:14:49Z" finished-at="2021-06-23T17:16:34Z">
+      <class name="tests.Searchtest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchtest@4667ae56]" name="useropenurl" is-config="true" duration-ms="11200" started-at="2021-06-23T17:15:54Z" finished-at="2021-06-23T17:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usersearchtest()[pri:0, instance:tests.Searchtest@4667ae56]" name="usersearchtest" duration-ms="2950" started-at="2021-06-23T17:16:05Z" finished-at="2021-06-23T17:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchtest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchtest@4667ae56]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T17:16:08Z" finished-at="2021-06-23T17:16:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchtest status=SUCCESS method=Searchtest.usersearchtest()[pri:0, instance:tests.Searchtest@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchtest@4667ae56]" name="userturnoffurl" is-config="true" duration-ms="695" started-at="2021-06-23T17:16:08Z" finished-at="2021-06-23T17:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Searchtest -->
+      <class name="tests.Shiptest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Shiptest@204f30ec]" name="useropenurl" is-config="true" duration-ms="11236" started-at="2021-06-23T17:16:09Z" finished-at="2021-06-23T17:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usershiptest()[pri:0, instance:tests.Shiptest@204f30ec]" name="usershiptest" duration-ms="12816" started-at="2021-06-23T17:16:20Z" finished-at="2021-06-23T17:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usershiptest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Shiptest@204f30ec]" name="userscreenshot" is-config="true" duration-ms="0" started-at="2021-06-23T17:16:33Z" finished-at="2021-06-23T17:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usershiptest status=SUCCESS method=Shiptest.usershiptest()[pri:0, instance:tests.Shiptest@204f30ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Shiptest@204f30ec]" name="userturnoffurl" is-config="true" duration-ms="728" started-at="2021-06-23T17:16:33Z" finished-at="2021-06-23T17:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Shiptest -->
+      <class name="tests.Hovertest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Hovertest@77cd7a0]" name="useropenurl" is-config="true" duration-ms="11220" started-at="2021-06-23T17:15:13Z" finished-at="2021-06-23T17:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="FAIL" signature="userhovertest()[pri:0, instance:tests.Hovertest@77cd7a0]" name="userhovertest" duration-ms="2759" started-at="2021-06-23T17:15:24Z" finished-at="2021-06-23T17:15:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mainContent"]/div[1]/ul/li[4]/div[2]/div[1]/div[1]/ul"}
+  (Session info: chrome=91.0.4472.106)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-MU36A4M1', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\Lola\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50371}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 91.0.4472.106, webStorageEnabled: true}
+Session ID: 98c00368f3983ff9333f335f941f2e0a
+*** Element info: {Using=xpath, value=//*[@id="mainContent"]/div[1]/ul/li[4]/div[2]/div[1]/div[1]/ul}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mainContent"]/div[1]/ul/li[4]/div[2]/div[1]/div[1]/ul"}
+  (Session info: chrome=91.0.4472.106)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-MU36A4M1', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\Lola\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50371}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 91.0.4472.106, webStorageEnabled: true}
+Session ID: 98c00368f3983ff9333f335f941f2e0a
+*** Element info: {Using=xpath, value=//*[@id="mainContent"]/div[1]/ul/li[4]/div[2]/div[1]/div[1]/ul}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at pages.Hoverpage.userhover(Hoverpage.java:35)
+at tests.Hovertest.userhovertest(Hovertest.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userhovertest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Hovertest@77cd7a0]" name="userscreenshot" is-config="true" duration-ms="428" started-at="2021-06-23T17:15:27Z" finished-at="2021-06-23T17:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userhovertest status=FAILURE method=Hovertest.userhovertest()[pri:0, instance:tests.Hovertest@77cd7a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Hovertest@77cd7a0]" name="userturnoffurl" is-config="true" duration-ms="843" started-at="2021-06-23T17:15:27Z" finished-at="2021-06-23T17:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Hovertest -->
+      <class name="tests.Categorytest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Categorytest@754ba872]" name="useropenurl" is-config="true" duration-ms="12394" started-at="2021-06-23T17:14:49Z" finished-at="2021-06-23T17:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usercategorytestit()[pri:0, instance:tests.Categorytest@754ba872]" name="usercategorytestit" duration-ms="10930" started-at="2021-06-23T17:15:01Z" finished-at="2021-06-23T17:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercategorytestit -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Categorytest@754ba872]" name="userscreenshot" is-config="true" duration-ms="2" started-at="2021-06-23T17:15:12Z" finished-at="2021-06-23T17:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercategorytestit status=SUCCESS method=Categorytest.usercategorytestit()[pri:0, instance:tests.Categorytest@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Categorytest@754ba872]" name="userturnoffurl" is-config="true" duration-ms="754" started-at="2021-06-23T17:15:12Z" finished-at="2021-06-23T17:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Categorytest -->
+      <class name="tests.Searchagaintest">
+        <test-method status="PASS" signature="useropenurl(java.lang.String)[pri:0, instance:tests.Searchagaintest@e25b2fe]" name="useropenurl" is-config="true" duration-ms="11308" started-at="2021-06-23T17:15:28Z" finished-at="2021-06-23T17:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropenurl -->
+        <test-method status="PASS" signature="usersearchagaintest()[pri:0, instance:tests.Searchagaintest@e25b2fe]" name="usersearchagaintest" duration-ms="13758" started-at="2021-06-23T17:15:40Z" finished-at="2021-06-23T17:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchagaintest -->
+        <test-method status="PASS" signature="userscreenshot(org.testng.ITestResult)[pri:0, instance:tests.Searchagaintest@e25b2fe]" name="userscreenshot" is-config="true" duration-ms="1" started-at="2021-06-23T17:15:53Z" finished-at="2021-06-23T17:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchagaintest status=SUCCESS method=Searchagaintest.usersearchagaintest()[pri:0, instance:tests.Searchagaintest@e25b2fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userscreenshot -->
+        <test-method status="PASS" signature="userturnoffurl()[pri:0, instance:tests.Searchagaintest@e25b2fe]" name="userturnoffurl" is-config="true" duration-ms="758" started-at="2021-06-23T17:15:53Z" finished-at="2021-06-23T17:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userturnoffurl -->
+      </class> <!-- tests.Searchagaintest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

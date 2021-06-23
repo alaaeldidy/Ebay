@@ -3,11 +3,10 @@
 	<parameter name="browser" value="headless" />
 	<test name="Regression Test" preserve-order="false">
 		<classes>
-			<class name="tests.Searchtest" />
-			<class name="tests.Hovertest" />
-			<class name="tests.Shiptest" />
-			<class name="tests.Searchagaintest" />
-			<class name="tests.Categorytest" />
+			<class name="tests.Searchtest"/>
+			<class name="tests.Shiptest"/>
+			<class name="tests.Searchagaintest"/>
+			<class name="tests.Categorytest"/>
 		</classes>
 	</test>
 </suite> 

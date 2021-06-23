@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="headlesschrome"/>
+  <test thread-count="5" name="ebay(failed)">
+    <classes>
+      <class name="tests.Registertest">
+        <methods>
+          <include name="usertestregister"/>
+          <include name="userscreenshot"/>
+          <include name="userturnoffurl"/>
+          <include name="useropenurl"/>
+        </methods>
+      </class> <!-- tests.Registertest -->
+      <class name="tests.Signintest">
+        <methods>
+          <include name="userscreenshot"/>
+          <include name="userturnoffurl"/>
+          <include name="usertestsignin"/>
+          <include name="useropenurl"/>
+        </methods>
+      </class> <!-- tests.Signintest -->
+      <class name="tests.Shiptest">
+        <methods>
+          <include name="usershiptest"/>
+          <include name="userscreenshot"/>
+          <include name="userturnoffurl"/>
+          <include name="useropenurl"/>
+        </methods>
+      </class> <!-- tests.Shiptest -->
+    </classes>
+  </test> <!-- ebay(failed) -->
+</suite> <!-- Failed suite [Suite] -->

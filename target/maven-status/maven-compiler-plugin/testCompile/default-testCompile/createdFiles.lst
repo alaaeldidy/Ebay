@@ -1,0 +1,10 @@
+tests\Registertest.class
+helper\Loadproperties.class
+tests\Categorytest.class
+tests\Testbase.class
+tests\Shiptest.class
+tests\Searchtest.class
+tests\Searchagaintest.class
+tests\Contacttest.class
+tests\Hovertest.class
+tests\Signintest.class

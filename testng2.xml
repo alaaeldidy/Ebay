@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" parallel = "tests" thread-count="5" >
+	
+	
+	
+	
+	<test name="Chrome Regression Test" preserve-order="false">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="tests.Searchtest" />
+		</classes>
+	</test>
+
+
+
+	<test name="firefox Regression Test2" preserve-order="false">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="tests.Searchtest" />
+		</classes>
+	</test>
+
+
+
+
+
+
+</suite> 
+
+
+
+
+
